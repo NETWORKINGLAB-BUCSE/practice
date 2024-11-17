@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: azure;
+
+}
+.container{
+    background-color:#FFFFFF ;
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+}
+header{
+    background-color: springgreen;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.section-h3{
+    text-transform: capitalize;
+    border-bottom: 3px solid #00ff84;
+    margin: 10px 0;
+}
+
+/*Degree Section*/
+.degree{
+    list-style-type: none;
+    padding: 10px;
+}
+.degree li{
+    margin: 10px 0;
+    background-color: springgreen;
+    padding: 10px 0 10px 10px;
+    border-left: 5px solid black;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.degree li:hover{
+    background-color: #35a16d;
+}
+/*Table*/
+table, th, td{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+    width: 100%;
+}
+table th{
+    background-color: #00ff84;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: aliceblue;
+}
+table tr:hover{
+    background-color: aliceblue;
+}
+
+
+/*Nav bar*/
+nav{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-color: #1e563b;
+    border-radius: 8px;
+    border-left: 8px solid yellow;
+    border-right: 8px solid yellow;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 15px;
+}
+nav ul li a:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 7px;
+    transition: background-color 0.7s ease;
+}
+footer{
+    background-color: #35a16d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
